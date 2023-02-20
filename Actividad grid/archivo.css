@@ -1,0 +1,109 @@
+/*CABEZERA*/
+#izquierda {
+    float: left;
+    margin: 10px;
+}
+
+#titulo {
+    float: right;
+    padding-right: 30px;
+    color: beige;
+}
+
+#derecha {
+    float: right;
+    margin: 5px;
+    margin-top: 2.5em;
+    margin-right: 10px;
+}
+
+.enlaces {
+    color: beige;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.enlaceSolo {
+    color: rgb(167, 179, 99);
+    text-decoration: none;
+}
+
+.enlaces:hover {
+    font-size: x-large;
+    transition: all 1s;
+}
+
+.enlaceSolo:hover {
+    font-size: x-large;
+    transition: all 1s;
+}
+
+header {
+    border: 2px solid;
+    height: 7EM;
+    background-color: rgb(73, 94, 57);
+}
+
+
+/*FOOTER*/
+footer {
+    padding: 1em;
+    background-color: rgb(73, 94, 57);
+    color: beige;
+    height: 6em;
+    clear: both;
+    border: 2px solid black;
+}
+
+#foot1 {
+    float: left;
+    width: 30%;
+    margin-left: 3em;
+
+}
+
+#foot2 {
+    float: left;
+    width: 20%;
+    margin-left: 12em;
+}
+
+#foot3 {
+    float: left;
+    width: 20%;
+    margin-left: 8em;
+}
+
+/*PRODUCTOS*/
+.enlacesP {
+    color: rgb(43, 78, 14);
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.enlacesP:hover {
+    font-size: larger;
+    transition: all 1s;
+}
+
+nav {
+    padding: 1em;
+}
+
+.contenedor-grid{
+    display:grid;
+    grid-template-columns:repeat(5, auto);
+    grid-auto-rows: minmax(200px,auto);
+    gap: 20px;
+    padding: 20px;
+  }
+
+.grid{
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.grid:hover{
+    filter: opacity(0.9);
+    transform: scale(1.06);
+  }
