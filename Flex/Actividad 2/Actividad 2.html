@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            height: 70px;
+            line-height: 70px;
+            padding-left: 40px;
+            background-color: aquamarine;
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        article{
+            display: flex;
+            margin-top:30px;
+            background-color: blue;
+        }
+        #no-wrap{
+            flex-wrap: nowrap;
+        }
+        #wrap{
+            flex-wrap: wrap;
+        }
+        img{
+            border: dashed 1px black;
+            margin: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>Flexbox - Catálogo de imágenes</header>
+    <section>
+        <h1>flex-wrap: nowrap</h1>
+        <article id="no-wrap">
+            <img src="mario.png">
+            <img src="luigi.png">
+            <img src="Peach.webp">
+            <img src="Daisy.webp">
+            <img src="Bowser.png">
+            <img src="Yoshi.webp">
+            <img src="mario.png">
+            <img src="luigi.png">
+            <img src="Peach.webp">
+            <img src="Daisy.webp">
+            <img src="Bowser.png">
+        </article>
+        <h1>flex-wrap: wrap</h1>
+        <article id="wrap">
+            <img src="mario.png">
+            <img src="luigi.png">
+            <img src="Peach.webp">
+            <img src="Daisy.webp">
+            <img src="Bowser.png">
+            <img src="Yoshi.webp">
+            <img src="mario.png">
+            <img src="luigi.png">
+            <img src="Peach.webp">
+            <img src="Daisy.webp">
+            <img src="Bowser.png">
+        </article>
+    </section>
+</body>
+</html>
