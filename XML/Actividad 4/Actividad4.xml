@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mensaje xmlns:micorreo="correo">
+    <micorreo:remitente>
+        <micorreo:nombre></nombre>
+        <micorreo:email></email>
+    </remitente>
+
+    <micorreo:destinatario>
+        <micorreo:nombre></nombre>
+        <micorreo:email></email>
+    </destinatario>
+
+    <micorreo:asunto>
+    </asunto>
+
+    <micorreo:texto>
+        <micorreo:parrafo></parrafo>
+        <micorreo:parrafo></parrafo>
+        <micorreo:parrafo></parrafo>
+    </texto>
+</mensaje>
