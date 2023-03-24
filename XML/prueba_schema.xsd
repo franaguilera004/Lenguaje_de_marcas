@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="espacioEjemplo">
+< element name="root" type="xs:string"/>
+<xs:mensaje>
+    <xs:remitente>
+        <xs:nombre></nombre>
+        <xs:email></email>
+    </remitente>
+
+    <xs:destinatario>
+        <xs:nombre></nombre>
+        <xs:email></email>
+    </destinatario>
+
+    <xs:asunto>
+    </asunto>
+
+    <xs:texto>
+        <xs:parrafo></parrafo>
+        <xs:parrafo></parrafo>
+        <xs:parrafo></parrafo>
+    </texto>
+</mensaje>
+</xs:schema>

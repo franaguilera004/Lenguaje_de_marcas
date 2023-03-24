@@ -16,7 +16,7 @@ body {
   min-height: 100%;
 }
 
-.grid-container> * {
+.grid-container>* {
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 4px;
   padding: 10px;
@@ -33,8 +33,18 @@ body {
   background-color: rgb(0, 140, 255);
 }
 
-.main {
-  grid-area: main;
+.box1 {
+  grid-area: box1;
+  background-color: rgb(0, 217, 255);
+}
+
+.box2 {
+  grid-area: box2;
+  background-color: rgb(0, 217, 255);
+}
+
+.box3 {
+  grid-area: box3;
   background-color: rgb(0, 217, 255);
 }
 
@@ -48,37 +58,55 @@ body {
   background-color: rgb(9, 255, 0);
 }
 
-
-.grid-container {
-  display: grid;
-  gap: 10px;
-  grid-template: 
-  "header" 150px 
-  "navbar" 100px
-  "main" auto
-  "sidebar" 100px
-  "footer" 100px ;
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "header" 150px 
+      "box1" 300px
+      "navbar" 100px
+      "sidebar" 100px
+      "footer" 100px;
+  }
 }
 
-@media (min-width: 1000px){
-.grid-container {
-  display: grid;
-  gap: 10px;
-  grid-template: 
-  "header header header" 150px 
-  "navbar navbar navbar" 100px
-  "sidebar main main" auto
-  "footer footer footer" 100px /400px auto auto;
-}
+@media (min-width: 768px) {
+  @media (max-width: 992px) {
+    .grid-container {
+      display: grid;
+      gap: 10px;
+      grid-template:
+        "header header header" 150px 
+        "box1 box1 box1" 300px
+        "navbar sidebar sidebar" 100px
+        "footer footer footer" 100px;
+    }
+  }
 }
 
-@media (min-width: 1400px){
-.grid-container {
-  display: grid;
-  gap: 10px;
-  grid-template: 
-  "header header header" 100px 
-  "navbar main sidebar" auto
-  "footer footer footer" 100px /200px auto 200px;
+@media (min-width: 992px) {
+  @media (max-width: 1200px) {
+    .grid-container {
+      display: grid;
+      gap: 10px;
+      grid-template:
+      "header header header header header"
+      "navbar box1 box1 box1 box1" 300px
+      "sidebar box1 box1 box1 box1"
+      "footer footer footer footer footer";
+    }
+  }
 }
+
+@media (min-width: 1200px) {
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+      "header header header header header"
+      "navbar box1 box1 box1 box1" 300px
+      "sidebar box1 box1 box1 box1"
+      "footer footer footer footer footer";
+  }
 }
