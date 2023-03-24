@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CD">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="titulo" />
+                <xs:element name="canciones">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cancion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="duracion">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="\d:\d{2}"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="anio">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="\d{4}"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="titulo" type="xs:string" />
+                                        <xs:element name="compositores">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="compositor">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombres"
+                                                                    type="xs:string" />
+                                                                <xs:element name="apellidos"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="productores">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="productor">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="nombres"
+                                                                    type="xs:string" />
+                                                                <xs:element name="apellidos"
+                                                                    type="xs:string" />
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="sello" type="xs:string" />
+                                        <xs:element name="artista" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fecha">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" />
+                            <xs:element name="mes" />
+                            <xs:element name="año" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="CD" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
