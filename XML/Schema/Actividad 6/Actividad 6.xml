@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FAQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="Actividad%206.xsd">
+    <INFO>
+        <TITULO>WINDOWS98? SOLO SI ME OBLIGAN!</TITULO>
+        <AUTOR>Fernando Lorenzo García</AUTOR>
+        <EMAIL>Fer@yahoo.es</EMAIL>
+        <VERSION>28.56</VERSION>
+        <FECHA>1999-05-20</FECHA>
+    </INFO>
+    <PART NO="1" TITLE="W95">
+        <Q NO="1">
+            <QTEXT>¿Por qué tengo que instalar W95?</QTEXT>
+            <A> A mi también me parece una buena pregunta.</A>
+        </Q>
+        <Q NO="2">
+            <QTEXT>¿Y de que me vale?</QTEXT>
+            <A>Otra ingeniosa pregunta.</A>
+        </Q>
+    </PART>
+    <PART NO="2" TITLE="DOS">
+        <Q NO="1">
+            <QTEXT>¿Puedo mantener DOS y W95?</QTEXT>
+            <A>Pues si.</A>
+        </Q>
+        <Q NO="2">
+            <QTEXT>¿Tengo que cambiar de ordenador?</QTEXT>
+            <A>Depende.</A>
+        </Q>
+    </PART>
+</FAQ>
