@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+    <datos_personales>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <fecha_nacimiento></fecha_nacimiento>
+        <lugar_nacimiento></lugar_nacimiento>
+        <nacionalidad></nacionalidad>
+        <nif></nif>
+        <foto></foto>
+    </datos_personales>
+
+    <datos_contacto>
+        <tipo_via></tipo_via>
+        <nombre_via></nombre_via>
+        <numero></numero>
+        <portal></portal>
+        <escalera></escalera>
+        <piso></piso>
+        <puerta></puerta>
+        <codio_postal></codio_postal>
+        <pais></pais>
+        <email></email>
+        <telefono_movil></telefono_movil>
+        <telefono_fijo></telefono_fijo>
+    </datos_contacto>
+
+    <datos_contacto_adicionales>
+        <pagina_web></pagina_web>
+        <redes_sociales></redes_sociales>
+    </datos_contacto_adicionales>
+
+    <formacion_academica>
+        <nombre></nombre>
+        <lugar_realizacion></lugar_realizacion>
+        <fecha_inicio></fecha_inicio>
+        <fecha_fin></fecha_fin>
+    </formacion_academica>
+
+    <idiomas>
+        <nombre></nombre>
+        <nivel_expresion_oral></nivel_expresion_oral>
+        <nivel_comprension_oral></nivel_comprension_oral>
+        <nivel_comprension_escrita></nivel_comprension_escrita>
+        <titulo_acreditativo></titulo_acreditativo>
+        <nivel_titulo></nivel_titulo>
+    </idiomas>
+
+    <experiencia_laboral>
+        <lugar></lugar>
+        <puesto_desempeñado></puesto_desempeñado>
+        <fecha_inicio></fecha_inicio>
+        <fecha_fin></fecha_fin>
+    </experiencia_laboral>
+
+    <competencias_socio_profesionales>
+        <nombre></nombre>
+        <nivel></nivel>
+    </competencias_socio_profesionales>
+    
+    <datos_adicionales>
+        <aficiones></aficiones>
+        <disponibilidad_viajar></disponibilidad_viajar>
+        <vehiculo_propio></vehiculo_propio>
+        <licencias></licencias>
+        <permiso_conducir></permiso_conducir>
+    </datos_adicionales>
+</curriculum>
